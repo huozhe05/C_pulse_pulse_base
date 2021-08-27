@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-F:/course/C++base/10days/one_day/math_base.cpp
+F:/course/C++base/10days/one_day/print.cpp
 iostream
 -
-math.h
+iostream
+-
+iomanip
+-
+string
+-
+fstream
 -
 

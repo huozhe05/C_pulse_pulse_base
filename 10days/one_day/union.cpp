@@ -2,6 +2,28 @@
 // Created by fly on 2021/8/26.
 //
 /**
- * union è”åˆä½“
+ * union ÁªºÏÌå
  *
  * */
+
+#include <iostream>
+
+union myun
+{
+    struct {int x; int y; int z;} u;
+    int k;
+    int b;
+}a;
+
+int main()
+{
+    a.u.x = 4;
+    a.u.y = 5;
+    a.u.z = 6;
+
+    a.k = 0; //Ö»»á¸²¸ÇµôµÚÒ»¸öint¿Õ¼äÖµ
+    a.b = 2; //Ö»»á¸²¸ÇµôµÚÒ»¸öint¿Õ¼äÖµ
+    printf("%d %d %d %d %d\n",a.u.x,a.u.y,a.u.z,a.k,a.b);
+    system("pause");
+    return 0;
+}

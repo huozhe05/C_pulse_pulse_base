@@ -2,20 +2,82 @@
 // Created by fly on 2021/8/26.
 //
 #include <iostream>
-
+#include <math.h>
 /**
- * Âä† Âáè ‰πò Èô§
- * Ê≥®ÊÑèÁ±ªÂûã‰∏äÁöÑËΩ¨Êç¢ int Âà∞ float„ÄÇ‰πüÂ∞±ÊòØÁ≤æÂ∫¶‰∏äÁöÑÂèòÊç¢
+ * º” ºı ≥À ≥˝
+ * ◊¢“‚¿‡–Õ…œµƒ◊™ªª int µΩ float°£“≤æÕ «æ´∂»…œµƒ±‰ªª
  *
- * Ôºà--Ôºâ Ôºà++Ôºâ
- * ~ ^ | & ‰∫åËøõÂà∂ËøêÁÆóÁ¨¶
- * ÔºÅÁî®Ê≥ï
+ * £®--£© £®++£©
+ * ~ ^ | & ∂˛Ω¯÷∆‘ÀÀ„∑˚
+ * £°”√∑®
  * **/
+
+void BinaryRecursion(int n)
+{
+    int a;
+    a = n % 2;
+    n = n >> 1; // ”““∆∂Ø“ªŒª£¨ œ‡µ±”Î≥˝“‘2°£ ◊Û“∆≥À“‘2
+    if (n != 0)
+    {
+        BinaryRecursion(n);
+    }
+    std::cout<<a;
+}
 
 
 
 int main()
 {
+    int a = 2, b = 3;
+    float c = 1.942;
+    std::cout<< a / b << std::endl;
+    std::cout<< float(a) / float(b) << std::endl;
+    std::cout<< int(c) << std::endl;
+
+
+    // ∑˚∫≈ £°”√”Îbool£¨0Œ™false£¨∆‰À˚Œ™true
+    std::cout<<"!\n";
     std::cout<<!(6)<<std::endl;
+    std::cout<<!(0)<<std::endl;
+    std::cout<<!(-24)<<std::endl;
+
+    // abs«Ûæ¯∂‘÷µ
+    std::cout<<abs(-24)<<std::endl;
+
+    // Œª‘ÀÀ„
+    a = 6; // 0110
+    b = 5; // 0101
+    c = 10; // 1010
+    BinaryRecursion(a);
+    std::cout<<std::endl;
+    BinaryRecursion(b);
+    std::cout<<std::endl;
+    BinaryRecursion(c);
+    std::cout<<std::endl;
+
+    // ~ ≤ª«Â≥˛£¨÷˜“™ «∂‘≤π¬Î”––©Õ¸¡À
+    std::cout<<"a£∫"<<(a)<<std::endl;
+    std::cout<<"∂‘a»°∑¥£∫"<<(~a)<<std::endl;
+    std::cout<<"b£∫"<<(b)<<std::endl;
+    std::cout<<"∂‘b»°∑¥£∫"<<(~b)<<std::endl;
+
+    // | ªÚ‘ÀÀ„
+    BinaryRecursion(a|b);
+    std::cout<<std::endl;
+    std::cout<<"∂‘a£¨bªÚ£∫"<<(b|a)<<std::endl;
+
+    // & ”Î‘ÀÀ„
+    BinaryRecursion(a&b);
+    std::cout<<std::endl;
+    std::cout<<"∂‘a£¨bªÚ£∫"<<(b&a)<<std::endl;
+
+    // ^ “ÏªÚ‘ÀÀ„
+    BinaryRecursion(a^b);
+    std::cout<<std::endl;
+    std::cout<<"∂‘a£¨bªÚ£∫"<<(b^a)<<std::endl;
+
+
+    ///// ∂‘∂˛Ω¯÷∆µƒ≤π¬Î£¨ ∑¥¬Î. ª˘¥°µƒ”¶”√
+    //// TODO
     return 0;
 }

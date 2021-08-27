@@ -4,14 +4,71 @@
 #include <iostream>
 
 /**
- * coutä¸printf
- * cinä¸scanf
- * ä½¿ç”¨std::ios::sync_with_stdio(false);åŸºæœ¬ä¸Šèƒ½è§£å†³coutä¸cinæ€§èƒ½æ¯”è¾ƒæ…¢çš„é—®é¢˜
- * printfä¸scanfï¼Œæœ€çƒ¦çš„æœ€éš¾çš„å°±æ˜¯è¦è‡ªå·±æ‰‹åŠ¨å¡«å†™æ•°æ®çš„ç±»å‹
+ * coutÓëprintf
+ * cinÓëscanf
+ * Ê¹ÓÃstd::ios::sync_with_stdio(false);»ù±¾ÉÏÄÜ½â¾öcoutÓëcinĞÔÄÜ±È½ÏÂıµÄÎÊÌâ
+ * printfÓëscanf£¬×î·³µÄ×îÄÑµÄ¾ÍÊÇÒª×Ô¼ºÊÖ¶¯ÌîĞ´Êı¾İµÄÀàĞÍ
  *
- * æ–‡æœ¬çš„è¾“å…¥å’Œè¾“å‡º
- * flieï¼Œreadï¼Œwrite
+ * ÎÄ±¾µÄÊäÈëºÍÊä³ö
+ * flie£¬read£¬write
  *
  *
- * æ ¼å¼åŒ–è¾“å‡º
+ * ¸ñÊ½»¯Êä³ö
  * **/
+
+
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <fstream>
+
+int main()
+{
+    int a = 10;
+    float b = 10.101010;
+    char c = 'f';
+
+    //³£ÓÃµÄÊä³ö
+    std::cout << "cout" << std::endl;
+    std::cout << "a: " << a << std::endl;
+    std::cout << "b: " << b << std::endl;
+    // ±£ÁôÖ¸¶¨Î»Ğ¡Êı (±ØÒªµÄÍ·º¯Êı#include <iomanip>)
+    std::cout << "b: " << std::setprecision(3) << b << std::endl;
+    // +10
+    std::cout << "a: " << std::showpos << a << std::endl;
+    std::cout << std::uppercase << 12345671234567 << std::endl;
+
+
+    printf("printf\n");
+    printf("a: %d\n", a);
+    printf("b: %f\n", b);
+    // ±£ÁôÖ¸¶¨Î»Ğ¡Êı
+    printf("b: %0.3f\n", b);
+    ////ºóĞøÔÙ²¹³äÏàÓ¦µÄ¸ñÊ½»¯Êä³ö
+    ////TODO
+
+
+    //ÎÄ¼ş
+    std::ifstream myfile("F:\\course\\C++base\\10days\\one_day\\flie.txt", std::ios::out);
+    std::ofstream outfile("F:\\course\\C++base\\10days\\one_day\\out.txt", std::ios::app);
+    std::string temp;
+
+    if (!myfile.is_open())
+    {
+        std::cout << "open fail\n";
+    }
+    while(std::getline(myfile, temp))
+    {
+//        std::cout << temp << std::endl;
+        outfile << temp;
+        outfile << std::endl;
+    }
+    myfile.close();
+    outfile.close();
+
+
+    ////¸ñÊ½Á÷ÊäÈë£¬Êä³ö
+    ////TODO
+
+    return 0;
+}
