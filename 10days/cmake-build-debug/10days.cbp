@@ -5,7 +5,7 @@
 		<Option title="10days"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\one_day\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\one_day\;CMake Files\two_day\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="F:/course/C++base/10days/cmake-build-debug"/>
@@ -219,6 +219,236 @@
 					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\one_day\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="two_day-logic_control">
+				<Option output="F:/course/C++base/10days/cmake-build-debug/two_day/two_day-logic_control.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/course/C++base/10days/cmake-build-debug/two_day"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:/course/C++base/10days/two_day/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 two_day-logic_control"/>
+					<CompileFile command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="two_day-logic_control/fast">
+				<Option output="F:/course/C++base/10days/cmake-build-debug/two_day/two_day-logic_control.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/course/C++base/10days/cmake-build-debug/two_day"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:/course/C++base/10days/two_day/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 two_day-logic_control/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="two_day-struct">
+				<Option output="F:/course/C++base/10days/cmake-build-debug/two_day/two_day-struct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/course/C++base/10days/cmake-build-debug/two_day"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:/course/C++base/10days/two_day/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 two_day-struct"/>
+					<CompileFile command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="two_day-struct/fast">
+				<Option output="F:/course/C++base/10days/cmake-build-debug/two_day/two_day-struct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/course/C++base/10days/cmake-build-debug/two_day"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:/course/C++base/10days/two_day/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 two_day-struct/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="two_day-enum">
+				<Option output="F:/course/C++base/10days/cmake-build-debug/two_day/two_day-enum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/course/C++base/10days/cmake-build-debug/two_day"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:/course/C++base/10days/two_day/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 two_day-enum"/>
+					<CompileFile command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="two_day-enum/fast">
+				<Option output="F:/course/C++base/10days/cmake-build-debug/two_day/two_day-enum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/course/C++base/10days/cmake-build-debug/two_day"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:/course/C++base/10days/two_day/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 two_day-enum/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="two_day-static">
+				<Option output="F:/course/C++base/10days/cmake-build-debug/two_day/two_day-static.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/course/C++base/10days/cmake-build-debug/two_day"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:/course/C++base/10days/two_day/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 two_day-static"/>
+					<CompileFile command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="two_day-static/fast">
+				<Option output="F:/course/C++base/10days/cmake-build-debug/two_day/two_day-static.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/course/C++base/10days/cmake-build-debug/two_day"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:/course/C++base/10days/two_day/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 two_day-static/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="two_day-recursion">
+				<Option output="F:/course/C++base/10days/cmake-build-debug/two_day/two_day-recursion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/course/C++base/10days/cmake-build-debug/two_day"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:/course/C++base/10days/two_day/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 two_day-recursion"/>
+					<CompileFile command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="two_day-recursion/fast">
+				<Option output="F:/course/C++base/10days/cmake-build-debug/two_day/two_day-recursion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/course/C++base/10days/cmake-build-debug/two_day"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:/course/C++base/10days/two_day/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 two_day-recursion/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\course\C++base\10days\cmake-build-debug\two_day\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="F:/course/C++base/10days/main.cpp">
 			<Option target="10days"/>
@@ -232,11 +462,29 @@
 		<Unit filename="F:/course/C++base/10days/one_day/union.cpp">
 			<Option target="one_day-union"/>
 		</Unit>
+		<Unit filename="F:/course/C++base/10days/two_day/enum.cpp">
+			<Option target="two_day-enum"/>
+		</Unit>
+		<Unit filename="F:/course/C++base/10days/two_day/logic_control.cpp">
+			<Option target="two_day-logic_control"/>
+		</Unit>
+		<Unit filename="F:/course/C++base/10days/two_day/recursion.cpp">
+			<Option target="two_day-recursion"/>
+		</Unit>
+		<Unit filename="F:/course/C++base/10days/two_day/static.cpp">
+			<Option target="two_day-static"/>
+		</Unit>
+		<Unit filename="F:/course/C++base/10days/two_day/struct.cpp">
+			<Option target="two_day-struct"/>
+		</Unit>
 		<Unit filename="F:/course/C++base/10days/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="F:/course/C++base/10days/one_day/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\one_day\"/>
+		</Unit>
+		<Unit filename="F:/course/C++base/10days/two_day/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\two_day\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

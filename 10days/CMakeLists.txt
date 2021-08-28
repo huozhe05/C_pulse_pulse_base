@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(10days main.cpp)
 
 ADD_SUBDIRECTORY(one_day)
+ADD_SUBDIRECTORY(two_day)

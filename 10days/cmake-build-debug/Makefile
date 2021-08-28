@@ -165,6 +165,71 @@ one_day-union\fast:
 	$(MAKE) $(MAKESILENT) -f one_day\CMakeFiles\one_day-union.dir\build.make /nologo -$(MAKEFLAGS) one_day\CMakeFiles\one_day-union.dir\build
 .PHONY : one_day-union\fast
 
+#=============================================================================
+# Target rules for targets named two_day-logic_control
+
+# Build rule for target.
+two_day-logic_control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) two_day-logic_control
+.PHONY : two_day-logic_control
+
+# fast build rule for target.
+two_day-logic_control\fast:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-logic_control.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-logic_control.dir\build
+.PHONY : two_day-logic_control\fast
+
+#=============================================================================
+# Target rules for targets named two_day-struct
+
+# Build rule for target.
+two_day-struct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) two_day-struct
+.PHONY : two_day-struct
+
+# fast build rule for target.
+two_day-struct\fast:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-struct.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-struct.dir\build
+.PHONY : two_day-struct\fast
+
+#=============================================================================
+# Target rules for targets named two_day-enum
+
+# Build rule for target.
+two_day-enum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) two_day-enum
+.PHONY : two_day-enum
+
+# fast build rule for target.
+two_day-enum\fast:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-enum.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-enum.dir\build
+.PHONY : two_day-enum\fast
+
+#=============================================================================
+# Target rules for targets named two_day-static
+
+# Build rule for target.
+two_day-static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) two_day-static
+.PHONY : two_day-static
+
+# fast build rule for target.
+two_day-static\fast:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-static.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-static.dir\build
+.PHONY : two_day-static\fast
+
+#=============================================================================
+# Target rules for targets named two_day-recursion
+
+# Build rule for target.
+two_day-recursion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) two_day-recursion
+.PHONY : two_day-recursion
+
+# fast build rule for target.
+two_day-recursion\fast:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-recursion.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-recursion.dir\build
+.PHONY : two_day-recursion\fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -204,6 +269,11 @@ help:
 	@echo ... one_day-math_base
 	@echo ... one_day-print
 	@echo ... one_day-union
+	@echo ... two_day-enum
+	@echo ... two_day-logic_control
+	@echo ... two_day-recursion
+	@echo ... two_day-static
+	@echo ... two_day-struct
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

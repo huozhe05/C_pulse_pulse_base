@@ -58,17 +58,20 @@ CMAKE_BINARY_DIR = F:\course\C++base\10days\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles\10days.dir\all
 all: one_day\all
+all: two_day\all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: one_day\preinstall
+preinstall: two_day\preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles\10days.dir\clean
 clean: one_day\clean
+clean: two_day\clean
 
 .PHONY : clean
 
@@ -93,6 +96,32 @@ one_day\clean: one_day\CMakeFiles\one_day-math_base.dir\clean
 one_day\clean: one_day\CMakeFiles\one_day-union.dir\clean
 
 .PHONY : one_day\clean
+
+#=============================================================================
+# Directory level rules for directory two_day
+
+# Recursive "all" directory target.
+two_day\all: two_day\CMakeFiles\two_day-logic_control.dir\all
+two_day\all: two_day\CMakeFiles\two_day-struct.dir\all
+two_day\all: two_day\CMakeFiles\two_day-enum.dir\all
+two_day\all: two_day\CMakeFiles\two_day-static.dir\all
+two_day\all: two_day\CMakeFiles\two_day-recursion.dir\all
+
+.PHONY : two_day\all
+
+# Recursive "preinstall" directory target.
+two_day\preinstall:
+
+.PHONY : two_day\preinstall
+
+# Recursive "clean" directory target.
+two_day\clean: two_day\CMakeFiles\two_day-logic_control.dir\clean
+two_day\clean: two_day\CMakeFiles\two_day-struct.dir\clean
+two_day\clean: two_day\CMakeFiles\two_day-enum.dir\clean
+two_day\clean: two_day\CMakeFiles\two_day-static.dir\clean
+two_day\clean: two_day\CMakeFiles\two_day-recursion.dir\clean
+
+.PHONY : two_day\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/10days.dir
@@ -201,6 +230,141 @@ one_day-union: one_day\CMakeFiles\one_day-union.dir\rule
 one_day\CMakeFiles\one_day-union.dir\clean:
 	$(MAKE) $(MAKESILENT) -f one_day\CMakeFiles\one_day-union.dir\build.make /nologo -$(MAKEFLAGS) one_day\CMakeFiles\one_day-union.dir\clean
 .PHONY : one_day\CMakeFiles\one_day-union.dir\clean
+
+#=============================================================================
+# Target rules for target two_day/CMakeFiles/two_day-logic_control.dir
+
+# All Build rule for target.
+two_day\CMakeFiles\two_day-logic_control.dir\all:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-logic_control.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-logic_control.dir\depend
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-logic_control.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-logic_control.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\course\C++base\10days\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target two_day-logic_control"
+.PHONY : two_day\CMakeFiles\two_day-logic_control.dir\all
+
+# Build rule for subdir invocation for target.
+two_day\CMakeFiles\two_day-logic_control.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\course\C++base\10days\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-logic_control.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\course\C++base\10days\cmake-build-debug\CMakeFiles 0
+.PHONY : two_day\CMakeFiles\two_day-logic_control.dir\rule
+
+# Convenience name for target.
+two_day-logic_control: two_day\CMakeFiles\two_day-logic_control.dir\rule
+
+.PHONY : two_day-logic_control
+
+# clean rule for target.
+two_day\CMakeFiles\two_day-logic_control.dir\clean:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-logic_control.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-logic_control.dir\clean
+.PHONY : two_day\CMakeFiles\two_day-logic_control.dir\clean
+
+#=============================================================================
+# Target rules for target two_day/CMakeFiles/two_day-struct.dir
+
+# All Build rule for target.
+two_day\CMakeFiles\two_day-struct.dir\all:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-struct.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-struct.dir\depend
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-struct.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-struct.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\course\C++base\10days\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target two_day-struct"
+.PHONY : two_day\CMakeFiles\two_day-struct.dir\all
+
+# Build rule for subdir invocation for target.
+two_day\CMakeFiles\two_day-struct.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\course\C++base\10days\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-struct.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\course\C++base\10days\cmake-build-debug\CMakeFiles 0
+.PHONY : two_day\CMakeFiles\two_day-struct.dir\rule
+
+# Convenience name for target.
+two_day-struct: two_day\CMakeFiles\two_day-struct.dir\rule
+
+.PHONY : two_day-struct
+
+# clean rule for target.
+two_day\CMakeFiles\two_day-struct.dir\clean:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-struct.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-struct.dir\clean
+.PHONY : two_day\CMakeFiles\two_day-struct.dir\clean
+
+#=============================================================================
+# Target rules for target two_day/CMakeFiles/two_day-enum.dir
+
+# All Build rule for target.
+two_day\CMakeFiles\two_day-enum.dir\all:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-enum.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-enum.dir\depend
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-enum.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-enum.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\course\C++base\10days\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target two_day-enum"
+.PHONY : two_day\CMakeFiles\two_day-enum.dir\all
+
+# Build rule for subdir invocation for target.
+two_day\CMakeFiles\two_day-enum.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\course\C++base\10days\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-enum.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\course\C++base\10days\cmake-build-debug\CMakeFiles 0
+.PHONY : two_day\CMakeFiles\two_day-enum.dir\rule
+
+# Convenience name for target.
+two_day-enum: two_day\CMakeFiles\two_day-enum.dir\rule
+
+.PHONY : two_day-enum
+
+# clean rule for target.
+two_day\CMakeFiles\two_day-enum.dir\clean:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-enum.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-enum.dir\clean
+.PHONY : two_day\CMakeFiles\two_day-enum.dir\clean
+
+#=============================================================================
+# Target rules for target two_day/CMakeFiles/two_day-static.dir
+
+# All Build rule for target.
+two_day\CMakeFiles\two_day-static.dir\all:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-static.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-static.dir\depend
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-static.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-static.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\course\C++base\10days\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target two_day-static"
+.PHONY : two_day\CMakeFiles\two_day-static.dir\all
+
+# Build rule for subdir invocation for target.
+two_day\CMakeFiles\two_day-static.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\course\C++base\10days\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-static.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\course\C++base\10days\cmake-build-debug\CMakeFiles 0
+.PHONY : two_day\CMakeFiles\two_day-static.dir\rule
+
+# Convenience name for target.
+two_day-static: two_day\CMakeFiles\two_day-static.dir\rule
+
+.PHONY : two_day-static
+
+# clean rule for target.
+two_day\CMakeFiles\two_day-static.dir\clean:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-static.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-static.dir\clean
+.PHONY : two_day\CMakeFiles\two_day-static.dir\clean
+
+#=============================================================================
+# Target rules for target two_day/CMakeFiles/two_day-recursion.dir
+
+# All Build rule for target.
+two_day\CMakeFiles\two_day-recursion.dir\all:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-recursion.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-recursion.dir\depend
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-recursion.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-recursion.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\course\C++base\10days\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target two_day-recursion"
+.PHONY : two_day\CMakeFiles\two_day-recursion.dir\all
+
+# Build rule for subdir invocation for target.
+two_day\CMakeFiles\two_day-recursion.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\course\C++base\10days\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-recursion.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\course\C++base\10days\cmake-build-debug\CMakeFiles 0
+.PHONY : two_day\CMakeFiles\two_day-recursion.dir\rule
+
+# Convenience name for target.
+two_day-recursion: two_day\CMakeFiles\two_day-recursion.dir\rule
+
+.PHONY : two_day-recursion
+
+# clean rule for target.
+two_day\CMakeFiles\two_day-recursion.dir\clean:
+	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-recursion.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-recursion.dir\clean
+.PHONY : two_day\CMakeFiles\two_day-recursion.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

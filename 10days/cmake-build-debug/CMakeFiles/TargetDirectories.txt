@@ -6,3 +6,10 @@ F:/course/C++base/10days/cmake-build-debug/one_day/CMakeFiles/one_day-print.dir
 F:/course/C++base/10days/cmake-build-debug/one_day/CMakeFiles/rebuild_cache.dir
 F:/course/C++base/10days/cmake-build-debug/one_day/CMakeFiles/one_day-math_base.dir
 F:/course/C++base/10days/cmake-build-debug/one_day/CMakeFiles/one_day-union.dir
+F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/two_day-logic_control.dir
+F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/two_day-struct.dir
+F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/two_day-enum.dir
+F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/rebuild_cache.dir
+F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/two_day-static.dir
+F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/two_day-recursion.dir
+F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/edit_cache.dir
