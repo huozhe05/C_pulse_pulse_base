@@ -13,3 +13,8 @@ F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/rebuild_cache.dir
 F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/two_day-static.dir
 F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/two_day-recursion.dir
 F:/course/C++base/10days/cmake-build-debug/two_day/CMakeFiles/edit_cache.dir
+F:/course/C++base/10days/cmake-build-debug/three_day/CMakeFiles/three_day-pointer.dir
+F:/course/C++base/10days/cmake-build-debug/three_day/CMakeFiles/edit_cache.dir
+F:/course/C++base/10days/cmake-build-debug/three_day/CMakeFiles/three_day-inline.dir
+F:/course/C++base/10days/cmake-build-debug/three_day/CMakeFiles/three_day-class.dir
+F:/course/C++base/10days/cmake-build-debug/three_day/CMakeFiles/rebuild_cache.dir

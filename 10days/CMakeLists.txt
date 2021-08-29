@@ -7,3 +7,4 @@ add_executable(10days main.cpp)
 
 ADD_SUBDIRECTORY(one_day)
 ADD_SUBDIRECTORY(two_day)
+ADD_SUBDIRECTORY(three_day)

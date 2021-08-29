@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "F:/course/C++base/10days/cmake-build-debug/three_day/CMakeFiles/three_day-class.dir/embed.manifest"

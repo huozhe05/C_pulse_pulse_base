@@ -33,6 +33,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.19.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeSystem.cmake"
   "../one_day/CMakeLists.txt"
+  "../three_day/CMakeLists.txt"
   "../two_day/CMakeLists.txt"
   )
 
@@ -47,6 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "one_day/CMakeFiles/CMakeDirectoryInformation.cmake"
   "two_day/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "three_day/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -60,4 +62,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "two_day/CMakeFiles/two_day-enum.dir/DependInfo.cmake"
   "two_day/CMakeFiles/two_day-static.dir/DependInfo.cmake"
   "two_day/CMakeFiles/two_day-recursion.dir/DependInfo.cmake"
+  "three_day/CMakeFiles/three_day-pointer.dir/DependInfo.cmake"
+  "three_day/CMakeFiles/three_day-inline.dir/DependInfo.cmake"
+  "three_day/CMakeFiles/three_day-class.dir/DependInfo.cmake"
   )

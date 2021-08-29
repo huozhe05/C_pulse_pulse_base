@@ -230,6 +230,45 @@ two_day-recursion\fast:
 	$(MAKE) $(MAKESILENT) -f two_day\CMakeFiles\two_day-recursion.dir\build.make /nologo -$(MAKEFLAGS) two_day\CMakeFiles\two_day-recursion.dir\build
 .PHONY : two_day-recursion\fast
 
+#=============================================================================
+# Target rules for targets named three_day-pointer
+
+# Build rule for target.
+three_day-pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) three_day-pointer
+.PHONY : three_day-pointer
+
+# fast build rule for target.
+three_day-pointer\fast:
+	$(MAKE) $(MAKESILENT) -f three_day\CMakeFiles\three_day-pointer.dir\build.make /nologo -$(MAKEFLAGS) three_day\CMakeFiles\three_day-pointer.dir\build
+.PHONY : three_day-pointer\fast
+
+#=============================================================================
+# Target rules for targets named three_day-inline
+
+# Build rule for target.
+three_day-inline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) three_day-inline
+.PHONY : three_day-inline
+
+# fast build rule for target.
+three_day-inline\fast:
+	$(MAKE) $(MAKESILENT) -f three_day\CMakeFiles\three_day-inline.dir\build.make /nologo -$(MAKEFLAGS) three_day\CMakeFiles\three_day-inline.dir\build
+.PHONY : three_day-inline\fast
+
+#=============================================================================
+# Target rules for targets named three_day-class
+
+# Build rule for target.
+three_day-class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) three_day-class
+.PHONY : three_day-class
+
+# fast build rule for target.
+three_day-class\fast:
+	$(MAKE) $(MAKESILENT) -f three_day\CMakeFiles\three_day-class.dir\build.make /nologo -$(MAKEFLAGS) three_day\CMakeFiles\three_day-class.dir\build
+.PHONY : three_day-class\fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -269,6 +308,9 @@ help:
 	@echo ... one_day-math_base
 	@echo ... one_day-print
 	@echo ... one_day-union
+	@echo ... three_day-class
+	@echo ... three_day-inline
+	@echo ... three_day-pointer
 	@echo ... two_day-enum
 	@echo ... two_day-logic_control
 	@echo ... two_day-recursion
